@@ -1,0 +1,17 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container .row {
+    margin: 0 auto;
+}
+
+.container .row .col .card {
+    overflow: hidden;
+    object-fit: contain;
+    border: 1px solid #2a2a2a;
+}
+
+.container .row .col .card img:hover {
+    transform: scale(1.2, 1.2);
+}
